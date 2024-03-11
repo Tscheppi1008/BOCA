@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1;
+    padding: 1;
+    display:flexbox;
+    justify-content:center;
+    align-items: center;
+    background-color: #dddddd;
+}
+
+hr{
+    width: 90%;
+    height: 2px;
+    background-color: #333333;
+}
+
+h2{
+    width: 90%;
+    margin: auto;
+    background-color: #333333;
+    font-size: 50px;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+h3{
+    font-size: 30px;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.anmeldung{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #333333;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.registrierung{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #333333;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.abmelden {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: #333333;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.bestellen{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: #333333;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+input[type="text"], input[type="password"]{
+    text-align: center;
+    width: 25%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    background: linear-gradient(to bottom,#fff,#eee);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input[type="number"]{
+    text-align: center;
+    width: 60px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom,#fff,#eee);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 5px;
+    
+    
+}
+
+button{
+    justify-content: center;
+    padding: 15px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3498db;
+}
+
+.errors{
+    color: red;
+    font-weight: bolder;
+    font-style:italic; 
+}
+
+.success{
+    color: green;
+    font-weight: bolder;
+    font-style:italic; 
+}
+table {
+    background-color: #333333;
+    color: white;
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px; /* Hier wird die Eckenabrundung hinzugefügt */
+    overflow: hidden; /* Verhindert, dass abgerundete Ecken Inhalte überlappen */
+    margin: auto;
+}
+
+th, td {
+    border: 2px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background-color: #333333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #555555;
+}
+
+tr:hover {
+    background-color: #000000;
+}
